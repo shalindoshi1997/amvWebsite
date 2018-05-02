@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3A82F1DA-7F1E-43F9-99D0-8E7F333B62F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alicia_En_El_Mundo_Vegano/Views/Home/IndexEs.cshtml">
+    <Files>
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Cause.cshtml" Line="19" Column="7" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Shared/_Layout.cshtml" Line="98" Column="100" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Index.cshtml" Line="164" Column="35" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Contact.cshtml" Line="18" Column="26" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Goal.cshtml" Line="32" Column="14" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Recipes.cshtml" Line="19" Column="80" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/Vision.cshtml" Line="19" Column="177" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Shared/_LayoutEs.cshtml" Line="47" Column="80" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/IndexEs.cshtml" Line="195" Column="96" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/ContactEs.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/GoalEs.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/RecipesEs.cshtml" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Views/Home/VisionEs.cshtml" Line="12" Column="64" NotebookId="1" />
+      <File FileName="Alicia_En_El_Mundo_Vegano/Controllers/HomeController.cs" Line="67" Column="36" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Alicia__En__El__Mundo__Vegano PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

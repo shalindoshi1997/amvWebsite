@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<!-- Bootstrap core CSS -->
+    <link href="~/lib/bootstrap/dist/css/theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="~/lib/bootstrap/dist/css/jumbotron-narrow.css" rel="stylesheet">
+
+<div class="jumbotron">
+        <h1>@ViewData["Title"]</h1>
+        <p class="lead">@ViewData["Message"]</p>
+       </div>
+       <style>
+       h4 {
+            text-shadow: 1px 1px 2px #000
+        }
+	    /* unvisited link */
+.linked{
+	color: LawnGreen;
+	}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+        </style>
+      <div class="row marketing" style="background-color: rgba(30, 130, 76, 0.8); border-radius:10px;">
+        <div class="col-lg-6">
+          <h4>Email us at:</h4>
+          <a class="linked" href="mailto:aliciaenelmundovegano@gmail.com">aliciaenelmundovegano@gmail.com</a>
+          <h4>Facebook</h4>
+          <p>Like, Follow and Share our content <a class="linked" href="https://www.facebook.com/pg/AliciaEnElMundoVegano">here</a>!</p>
+
+          <h4>Twitter</h4>
+          <p>Retweet, Follow and Share our content <a class="linked"  href="https://twitter.com/AliciaMundoV">here</a>!</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Snapchat</h4>
+          <p>Snap,Chat and follow our stories <a class="linked">here</a>!</p>
+
+          <h4>Youtube</h4>
+          <p>Watch, Subscribe, Like and Share our content <a class="linked" href="https://www.youtube.com/channel/UCjFP0YzqjXbMb5uc8zM5ALw?view_as=subscriber">here</a>!</p>          
+
+          <h4>Instagram</h4>
+          <p>Love, Follow and have a look at some  our content <a class="linked" href="https://www.instagram.com/aliciamundov/">here</a>!</p>
+          </div>
+      </div>
+
+<!--
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<address>
+	<strong>Email us at:</strong> <a href="mailto:aliciaenelmundovegano@gmail.com">aliciaenelmundovegano@gmail.com</a><br />
+    Or follow us on our various social media pages: <br>
+	<img src="/images/findOnFacebook.png" style="width:5%" >
+</address>
+-->

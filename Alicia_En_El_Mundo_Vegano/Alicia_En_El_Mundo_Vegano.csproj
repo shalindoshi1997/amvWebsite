@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="bootstrap" Version="3.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Resources\Global.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\Resources\Global.resx" />
+    <EmbeddedResource Remove="Resources\Global.resx" />
+    <EmbeddedResource Remove="App_GlobalResources\chien.language.resx" />
+    <EmbeddedResource Remove="App_GlobalResources\chien.language.vi-vn.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="App_GlobalResources\chien.language.Designer.cs">
+      <DependentUpon>chien.language.resx</DependentUpon>
+    </Compile>
+    <Compile Update="App_GlobalResources\chien.language.vi-vn.Designer.cs">
+      <DependentUpon>chien.language.vi-vn.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="wwwroot1\.DS_Store" />
+    <None Remove="wwwroot1\favicon.ico" />
+    <None Remove="wwwroot1\yt_logo_rgb_light.png" />
+    <None Remove="wwwroot1\css\site.css" />
+    <None Remove="wwwroot1\css\site.min.css" />
+    <None Remove="wwwroot1\images\.DS_Store" />
+    <None Remove="wwwroot1\images\IG_Glyph_Fill.psd" />
+    <None Remove="wwwroot1\images\Twitter_Social_Icon_Square_Color.png" />
+    <None Remove="wwwroot1\images\VisionBanner.jpg" />
+    <None Remove="wwwroot1\images\avafour.jpg" />
+    <None Remove="wwwroot1\images\banner-1090835_640.jpg" />
+    <None Remove="wwwroot1\images\banner1.svg" />
+    <None Remove="wwwroot1\images\banner2.svg" />
+    <None Remove="wwwroot1\images\banner3.svg" />
+    <None Remove="wwwroot1\images\banner4.svg" />
+    <None Remove="wwwroot1\images\blured.png" />
+    <None Remove="wwwroot1\images\cause.svg" />
+    <None Remove="wwwroot1\images\findOnFacebook.png" />
+    <None Remove="wwwroot1\images\goal.svg" />
+    <None Remove="wwwroot1\images\item.png" />
+    <None Remove="wwwroot1\images\itemdark.png" />
+    <None Remove="wwwroot1\images\logo.jpg" />
+    <None Remove="wwwroot1\images\thumb-sm.png" />
+    <None Remove="wwwroot1\images\thumb.png" />
+    <None Remove="wwwroot1\images\vision.svg" />
+    <None Remove="wwwroot1\js\site.js" />
+    <None Remove="wwwroot1\js\site.min.js" />
+    <None Remove="wwwroot1\lib\.DS_Store" />
+    <None Remove="wwwroot1\lib\bootstrap\.DS_Store" />
+    <None Remove="wwwroot1\lib\bootstrap\LICENSE" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\.DS_Store" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\carousel.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\jquery.mCustomScrollbar.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\jumbotron - ™ÆØ®Ô.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\jumbotron-narrow.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\jumbotron.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\justified-nav.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\offcanvas.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\signin.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\sticky-footer-navbar.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\sticky-footer.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\theme.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\css\variables.css" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\bootstrap_mode_blogalt.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\holder.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\html5shiv.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.localscroll-1.2.7-min.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.mCustomScrollbar.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.mousewheel.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.nicescroll.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.nicescroll.min.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.parallax-1.1.3.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\jquery.scrollTo-1.4.2-min.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\npm.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\offcanvas.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\js\respond.min.js" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\less\theme.less" />
+    <None Remove="wwwroot1\lib\bootstrap\dist\less\variables.less" />
+    <None Remove="wwwroot1\lib\jquery\LICENSE.txt" />
+    <None Remove="wwwroot1\lib\jquery\dist\jquery.js" />
+    <None Remove="wwwroot1\lib\jquery\dist\jquery.min.js" />
+    <None Remove="wwwroot1\lib\jquery\dist\jquery.min.map" />
+    <None Remove="wwwroot1\lib\jquery-validation\LICENSE.md" />
+    <None Remove="wwwroot1\lib\jquery-validation\dist\additional-methods.js" />
+    <None Remove="wwwroot1\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Remove="wwwroot1\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Remove="wwwroot1\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Remove="wwwroot1\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Remove="wwwroot1\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_GlobalResources\chien.language.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>chien.language.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\chien.language.vi-vn.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>chien.language.vi-vn.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot1\lib\bootstrap\.bower.json" />
+    <Content Remove="wwwroot1\lib\bootstrap\dist\js\koala-config.json" />
+    <Content Remove="wwwroot1\lib\jquery\.bower.json" />
+    <Content Remove="wwwroot1\lib\jquery-validation\.bower.json" />
+    <Content Remove="wwwroot1\lib\jquery-validation-unobtrusive\.bower.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\en\" />
+    <Folder Include="Views\es\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+</Project>

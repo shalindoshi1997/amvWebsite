@@ -1,0 +1,13 @@
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/bin/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.deps.json
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/bin/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.runtimeconfig.json
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/bin/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.runtimeconfig.dev.json
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/bin/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.dll
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/bin/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.pdb
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.csprojResolveAssemblyReference.cache
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.csproj.CoreCompileInputs.cache
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.AssemblyInfoInputs.cache
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.AssemblyInfo.cs
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.dll
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.pdb
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.Resources.resources
+/Users/Shalin/Projects/Alicia_En_El_Mundo_Vegano/Alicia_En_El_Mundo_Vegano/obj/Debug/netcoreapp2.0/Alicia_En_El_Mundo_Vegano.csproj.GenerateResource.Cache

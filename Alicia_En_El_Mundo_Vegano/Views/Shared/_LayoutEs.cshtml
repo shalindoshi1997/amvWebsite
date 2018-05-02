@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<link rel="icon" href="/images/logo.png">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Alicia En El Mundo Vegano</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+        <link href="~/lib/bootstrap/dist/css/theme.css" rel="stylesheet">
+
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+    </environment>
+		
+</head>
+<body>
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container" style="display: inline-block;">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header" style="display:inline-block">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+         <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand" style="font-family: 'Bungee Shade', cursive;">Alicia En <br>  El Mundo Vegano</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse" style="text-align: left; position: left;padding-left: 20%;margin-left: 30%;margin-right: -30%;">
+        <ul class="nav navbar-nav" >
+						<li><a asp-area="" asp-controller="Home" asp-action="IndexEs">Casa</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="RecipesEs">Recetas</a></li>
+<!--                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>-->
+                    <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sobre Nosotros<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a asp-controller="Home" asp-area="" asp-action="VisionEs" > Visión</a></li>
+              <li><a asp-controller="Home" asp-area="" asp-action="CauseEs" >Causa</a></li>
+              <li><a asp-controller="Home" asp-area="" asp-action="GoalEs"  >Objetivos</a></li>
+              </ul>
+          </li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="ContactEs">Contactenos</a></li>
+                    <!-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        --></ul>
+					<ul style="list-style-type: none; ">
+                
+                <li style="display: inline;"><a href="https://www.facebook.com/pg/AliciaEnElMundoVegano"><img src="/images/facebook.svg" style="width:5%"></a></li>
+                <li style="display: inline"><a href="https://www.instagram.com/aliciamundov/"><img src="/images/instagram.svg" style="width:5%"></a></li>
+                <li style="display: inline"><a href=""><img src="/images/snapchat.svg" style="width:5%"></a></li>
+                <br>
+                <li style="display: inline"><a href="https://twitter.com/AliciaMundoV"><img src="/images/twitter.svg" style="width:5%"></a></li>
+                <li style="display: inline"><a href="https://www.youtube.com/channel/UCjFP0YzqjXbMb5uc8zM5ALw?view_as=subscriber"><img src="/images/youtube.svg" style="width:5%"></a></li>
+                <li style="display: inline"><a href="mailto:aliciaenelmundovegano@gmail.com"><img src="/images/gmail.svg" style="width:5%"> </a></li>
+                    </ul>
+
+          <!--<div class="" style="margin-left: 60%">
+            <ul style="list-style-type: none; ">
+				
+                <li style="display: inline;"><a href="https://www.facebook.com/pg/AliciaEnElMundoVegano"><img src="/images/facebook.svg" style="width:10%"></a></li>
+                <li style="display: inline"><a href="https://www.instagram.com/aliciamundov/"><img src="/images/instagram.svg" style="width:10%"></a></li>
+                <li style="display: inline"><a href=""><img src="/images/snapchat.svg" style="width:10%"></a></li>
+                <br>
+				<li style="display: inline"><a href="https://twitter.com/AliciaMundoV"><img src="/images/twitter.svg" style="width:10%"></a></li>
+                <li style="display: inline"><a href="https://www.youtube.com/channel/UCjFP0YzqjXbMb5uc8zM5ALw?view_as=subscriber"><img src="/images/youtube.svg" style="width:10%"></a></li>
+                <li style="display: inline"><a href="mailto:aliciaenelmundovegano@gmail.com"><img src="/images/gmail.svg" style="width:10%"> </a></li>
+
+			</ul> 
+          </div>
+		
+          <!--<button type="submit" class="btn btn-primary">Submit</button> -->
+        
+   	
+    </div><!-- /.navbar-collapse --> 
+ 
+			</div>  
+   <div style="text-align:right;margin-right:5%; display: inline-block; float:right">
+            <ul style="list-style-type: none;  ">
+                
+                <li style="display: inline;"><a asp-controller="Home" asp-area="" asp-action="Index"><img src="/images/englishFlag.png" style="width:%"></a></li>
+                <li style="display: inline"><a asp-controller="Home" asp-area="" asp-action="IndexEs"><img src="/images/spainFlag.png" style="width:30%"> </a></li>
+
+            </ul> 
+        </div>           
+		</nav>
+
+   <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Alicia En El Mundo Vegano</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Recipes">Recipes</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+		    <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <a href="https://www.freepik.com/free-photo/texture-background_1167463.htm">Designed by Freepik</a>
+				<p>&copy; 2017 - Alicia En El Mundo Vegano</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

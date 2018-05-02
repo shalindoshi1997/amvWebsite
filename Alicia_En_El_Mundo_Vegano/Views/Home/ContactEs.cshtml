@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+    Layout = "_LayoutEs";
+}
+<!-- Bootstrap core CSS -->
+    <link href="~/lib/bootstrap/dist/css/theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="~/lib/bootstrap/dist/css/jumbotron-narrow.css" rel="stylesheet">
+
+<div class="jumbotron">
+        <h1>@ViewData["Title"]</h1>
+        <p class="lead">@ViewData["Message"]</p>
+       </div>
+       <style>
+       h4 {
+            text-shadow: 1px 1px 2px #000
+        }
+	    /* unvisited link */
+.linked{
+	color: LawnGreen;
+	}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+        </style>
+      <div class="row marketing" style="background-color: rgba(30, 130, 76, 0.8); border-radius:10px;">
+        <div class="col-lg-6">
+          <h4>Envíanos un email a:</h4>
+          <a class="linked" href="mailto:aliciaenelmundovegano@gmail.com">aliciaenelmundovegano@gmail.com</a>
+          <h4>Facebook</h4>
+          <p>Me gusta, sigue y comparte nuestro contenido <a class="linked" href="https://www.facebook.com/pg/AliciaEnElMundoVegano">aquí</a>!</p>
+
+          <h4>Twitter</h4>
+          <p>Retweet, Follow y Share nuestro contenido<a class="linked"  href="https://twitter.com/AliciaMundoV">aquí</a>!</p>
+        </div>
+
+        <div class="col-lg-6">
+          <h4>Snapchat</h4>
+          <p>Ajustar, chatear y seguir nuestras historias <a class="linked">aquí</a>!</p>
+
+          <h4>Youtube</h4>
+          <p>Mira, suscríbete, me gusta y comparte nuestro contenido <a class="linked" href="https://www.youtube.com/channel/UCjFP0YzqjXbMb5uc8zM5ALw?view_as=subscriber">aquí</a>!</p>          
+
+          <h4>Instagram</h4>
+          <p>Amar, seguir y echar un vistazo a algunos de nuestros contenidos<a class="linked" href="https://www.instagram.com/aliciamundov/">aquí</a>!</p>
+          </div>
+      </div>
+
+<!--
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<address>
+	<strong>Email us at:</strong> <a href="mailto:aliciaenelmundovegano@gmail.com">aliciaenelmundovegano@gmail.com</a><br />
+    Or follow us on our various social media pages: <br>
+	<img src="/images/findOnFacebook.png" style="width:5%" >
+</address>
+-->
